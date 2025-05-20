@@ -1,0 +1,9 @@
+# 20250506 add by pc
+//Linux 電腦環境打中文字
+//Get the current formatted time using moment 
+const moment = require('moment');
+const formattedTime = moment().format('YYYYMMDDHHmmss');
+//Get the current date using moment
+const dateTime = moment().format('YYYYMMDD');
+pm.collectionVariables.set("formattedTime", formattedTime);
+pm.collectionVariables.set("dateTime", dateTime);

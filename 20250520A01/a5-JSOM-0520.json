@@ -1,0 +1,10 @@
+/* 
+JSOM 範例
+20250506 add by pc
+*/ 
+
+{
+  "name": "中文",
+  "value": 123,
+  "isActive": true
+}
